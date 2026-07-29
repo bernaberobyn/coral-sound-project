@@ -11,5 +11,11 @@ The dataset consisted of a total of 262 audio files, out of which 81 were health
 ### coral-sound-project(1)-data-processing [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/maryrobynbernabe/coral-sound-project-1-data-processing)
 This notebook used the dataset from [here](https://www.kaggle.com/datasets/maryrobynbernabe/coral-sound-dataset) and converts audio files into a set of features. The output of the code is saved in a csv file.
 
-### 
+### coral-sound-project(2)-dataset-splitting [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/maryrobynbernabe/coral-sound-project-2-dataset-splitting)
+This notebook is used for splitting the dataset into test and train sets.
 
+### coral-sound-project(3)-model-training [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/maryrobynbernabe/coral-sound-project-3-model-training)
+This notebook is used for performing five-fold cross-validation with KNN, Random Forest and MLP. The best performing model was finally saved in the output directory.
+
+### coral-sound-project(4)-testing-best-model [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/maryrobynbernabe/coral-sound-project-4-testing-best-model)
+This notebook is used for testing the best model that was saved in previous step, using the test split.
